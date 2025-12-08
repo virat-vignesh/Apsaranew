@@ -1107,7 +1107,7 @@ website:    http://www.themepunch.com
 	background:#555;
   
 }
-
+/* 
 .hades .tp-bullet-image {
   position:absolute;top:-80px; left:-60px;width:120px;height:60px;
   background-position:center center;
@@ -1126,14 +1126,14 @@ website:    http://www.themepunch.com
   -webkit-transform-origin:50% 100%;
   
   
-}
-.hades .tp-bullet:hover .tp-bullet-image {
+} */
+/* .hades .tp-bullet:hover .tp-bullet-image {
   display:block;
   opacity:1;
   transform: rotatex(0deg);
   -webkit-transform: rotatex(0deg);
   visibility:visible;
-    }
+    } */
 .hades .tp-bullet-title {
 }
 
