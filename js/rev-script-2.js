@@ -1,4 +1,4 @@
-<!-- REVOLUTION SLIDER FUNCTION FOR HOME PAGE STYLE 1 ===== -->
+
 var revapi318,
 	tpj=jQuery;
 			
@@ -27,27 +27,27 @@ tpj(document).ready(function() {
 					drag_block_vertical: false
 				}
 				,
-				arrows: {
-					style:"hades",
-					enable:true,
-					hide_onmobile:false,
-					hide_under:778,
-					hide_onleave:false,
-					tmp:'<div class="tp-arr-allwrapper"><div class="tp-arr-imgholder"></div></div>',
-					left: {
-						h_align:"left",
-						v_align:"center",
-						h_offset:50,
-						v_offset:0,
-					},
-					right: {
-						h_align:"right",
-						v_align:"center",
-						h_offset:50,
-						v_offset:0,
-					}
-				}
-				,
+				// arrows: {
+				// 	style:"hades",
+				// 	enable:true,
+				// 	hide_onmobile:false,
+				// 	hide_under:778,
+				// 	hide_onleave:false,
+				// 	tmp:'<div class="tp-arr-allwrapper"><div class="tp-arr-imgholder"></div></div>',
+				// 	left: {
+				// 		h_align:"left",
+				// 		v_align:"center",
+				// 		h_offset:50,
+				// 		v_offset:0,
+				// 	},
+				// 	right: {
+				// 		h_align:"right",
+				// 		v_align:"center",
+				// 		h_offset:50,
+				// 		v_offset:0,
+				// 	}
+				// }
+				// ,
 				bullets: {
 					enable:true,
 					hide_onmobile:false,
@@ -109,4 +109,3 @@ tpj(document).ready(function() {
 });
 /*ready*/
 
-<!-- REVOLUTION SLIDER FUNCTION FOR HOME PAGE STYLE 1 END  ===== -->
