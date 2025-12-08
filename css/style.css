@@ -8293,7 +8293,8 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 
 @media only screen and (max-width:640px) {
 	.logo-header {
-		width: 100px;
+		width: 80px;
+		padding: 5px;
 	}
 	
 }
