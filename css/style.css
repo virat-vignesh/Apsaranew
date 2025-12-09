@@ -8686,7 +8686,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 }
 
 .header-style-1 .header-nav .nav>li:hover>a {
-	color: #541f5c  !important;
+	color: #fff  !important;
 }
 
 /* =====hover continue show effect End=====*/
@@ -9998,7 +9998,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 }
 
 
-.footer-bottom .copyrights-nav li a:hover,
+/* .footer-bottom .copyrights-nav li a:hover,
 .footer-bottom .copyrights-nav li a:active,
 .footer-bottom .copyrights-nav li a:focus,
 .footer-bottom .copyrights-nav li.active a {
@@ -10010,7 +10010,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 .footer-light .footer-bottom .copyrights-nav li a:focus,
 .footer-light .footer-bottom .copyrights-nav li.active a {
 	color: #541f5c;
-}
+} */
 
 
 @media only screen and (max-width:991px) {
@@ -15015,4 +15015,9 @@ margin-bottom:0px;}
   .features-section h1 {
     font-size: 26px;
   }
+}
+
+.extra-cell>a:hover{
+	color: white;
+
 }
