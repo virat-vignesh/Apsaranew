@@ -8585,7 +8585,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 	padding: 12px 10px;
 }
 .navbar-toggler .icon-bar {
-	background:#111111;
+	background:#fff;
 	height: 3px;
 	border-radius: 0;
 	-webkit-border-radius: 0;

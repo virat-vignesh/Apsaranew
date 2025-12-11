@@ -659,96 +659,74 @@
 
 
 /* -------- FACIAL SECTION -------- */
-
+/* -------- FACIAL CARD GRID -------- */
 .apsara-facials {
-  padding: 60px 8%;
+  padding: 50px 6%;
   background: #f8f5f2;
-  display: flex;
-  flex-direction: column;
-  gap: 45px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 35px;
 }
 
-/* Each Row (Text + Image) */
-.facial-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 30px;
+/* -------- CARD -------- */
+.facial-card {
   background: #ffffff;
-  padding: 35px;
   border-radius: 18px;
-  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
   transition: 0.3s ease;
 }
 
-.facial-row:hover {
+.facial-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 12px 32px rgba(0,0,0,0.14);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.15);
 }
 
-/* Reverse layout (Image left, Text right) */
-.facial-row.reverse {
-  flex-direction: row-reverse;
-}
-
-/* Text Area */
-.facial-text {
-  flex: 1;
-}
-
-.facial-text h3 {
-  font-size: 28px;
-  font-weight: 700;
-  color: #333;
-  margin-bottom: 12px;
-}
-
-.facial-text p {
-  font-size: 16px;
-  line-height: 1.7;
-  color: #555;
-}
-
-/* Image Area */
-.facial-img {
-  flex: 1;
-}
-
-.facial-img img {
+/* -------- IMAGE -------- */
+.facial-card img {
   width: 100%;
-  height: 280px;
+  height: 220px;
   object-fit: cover;
-  border-radius: 14px;
 }
 
-/* -------- Responsive --------- */
-
-@media (max-width: 900px) {
-  .facial-row,
-  .facial-row.reverse {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .facial-img img {
-    height: 220px;
-  }
+/* -------- TEXT -------- */
+.facial-body {
+  padding: 18px 22px;
 }
 
+.facial-body h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: #222;
+}
+
+.facial-body h5 {
+  margin-top: 14px;
+  margin-bottom: 4px;
+  color: #222;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.facial-body p {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* -------- MOBILE -------- */
 @media (max-width: 600px) {
   .apsara-facials {
-    padding: 40px 5%;
-    gap: 35px;
+    padding: 35px 4%;
+    gap: 20px;
   }
 
-  .facial-row {
-    padding: 25px;
-  }
-
-  .facial-text h3 {
-    font-size: 22px;
+  .facial-card img {
+    height: 180px;
   }
 }
+
 
 
 /* SECTION HEADER */
