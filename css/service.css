@@ -859,11 +859,12 @@
 }
 
 /* HEADER */
-/* .apsara-bridal-header {
+.apsara-bridal-header {
   text-align: center;
   max-width: 750px;
   margin: 0 auto 60px;
-} */
+  /* color: black; */
+}
 
 .apsara-bridal-header .tag {
   color: #c1985b;
@@ -956,7 +957,7 @@
 
 /* ANIMATIONS */
 [data-anim] {
-  opacity: 0;
+  /* opacity: 0; */
   transform: translateY(40px);
   transition: 0.9s ease;
 }

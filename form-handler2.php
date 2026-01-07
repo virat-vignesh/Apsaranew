@@ -14,7 +14,7 @@ if ( isset( $_POST['action'] ) ):
 	$message = filter_var( $_POST['message'], FILTER_SANITIZE_STRING );
 	
 
-    $to_email = "thewebmaxmail@gmail.com";    // To email address
+    $to_email = "nithyanithya12624@gmail.com";    // To email address
     $to_name = "Your Name";
 
     $email_subject = 'You Have Received a Message From ' . $name . '.';
